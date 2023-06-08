@@ -1,0 +1,80 @@
+body{
+	margin:0px;
+}
+
+
+header{
+	background-color: red;
+	color:darkblue ;
+}
+nav{
+	background-color: white;
+}
+ul{
+	margin: 0px;
+	list-style: circle;
+	display: flex;
+	justify-content: flex-end;
+}
+li{
+	margin: 20px 10px;
+}
+#header-text{
+	background-image: url(https://images.unsplash.com/photo-1576426863848-c21f53c60b19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    height:400px;
+    background-size: cover;
+    background-position:50% 30% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+h1{
+	margin: 0px;
+}
+
+h3{
+	 animation: flash; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+
+}
+section{
+	background-color:dimgrey ;
+	color:greenyellow ;
+}
+
+.secl-text{
+	height:200px;
+	width:300px;
+	background-color: hotpink;
+    margin: 10px;
+    padding: 10px;
+}
+
+.secl-text:hover{
+	 animation:bounceOut ; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+
+}
+#section1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img{
+	width: 100%;
+	max-width: 400px;
+	height:auto ;
+	padding: 10px;
+	margin: 20px;
+}
+#section2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+footer{
+	background-color: slategray;
+	color:whitesmoke ;
+}
